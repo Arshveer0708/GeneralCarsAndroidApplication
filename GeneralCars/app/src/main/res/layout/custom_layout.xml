@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:id="@+id/imageset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo" />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/makers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/model_of_vehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/engine_cylinder_of_vehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/datesold_of_vehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/condition_of_vehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/year_of_vehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/doors_of_vehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/color_of_vehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/price_of_vehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="CAD 22000/-"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CompanyDetails">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/companyLogo"
+            android:src="@drawable/placeholder"/>
+    </androidx.cardview.widget.CardView>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/nameCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="Enter name here"
+        android:paddingLeft="10dp"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Name" />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="Enter address here"
+        android:paddingLeft="10dp"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Address" />
+
+    <Button
+        android:id="@+id/saveCompanyData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Save Data" />
+</LinearLayout>
